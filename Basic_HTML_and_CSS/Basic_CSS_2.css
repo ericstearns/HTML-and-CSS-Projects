@@ -1,6 +1,10 @@
 p {
 	color: pink;
-	bakcground: black;
+	background: black;
 	font-weight: bold;
 	text-align: center;
+}
+
+h1 {
+	text-shadow: 2px 2px #ff0000;
 }
