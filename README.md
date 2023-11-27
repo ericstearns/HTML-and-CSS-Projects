@@ -14,3 +14,6 @@ I have completed everything from basic HTML templates to creating and coding my 
 
 4. [Basic HTML Page](https://github.com/ericstearns/HTML-and-CSS-Projects/blob/main/Basic_HTML_and_CSS/Basic_HTML_1.html)
 <p>This is one of the first HTML files I created on how to add a picture of a basic golf swing and to link them to a CSS file. </p>
+
+5. [Portfolio](file:///C:/Users/erics/Documents/GitHub/ericstearns.github.io/index.html#Slideshow)
+<p>This is a portfolio linking all my information and projects into one page and having people be able to contact me!</p>
