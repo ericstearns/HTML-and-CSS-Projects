@@ -50,3 +50,23 @@ function show() {
 document.getElementById('add').addEventListener('click', add);
 /*this will keep the inputs displayed permantaly on the screen*/
 show();
+
+
+/*this creates the functionality of remopving a todo item from the array*/
+function remove() {
+    var id = this.getAttribute('id');
+    var todos = get_todos();
+    todos.splice(id, 1);
+    localStorage.setItem('todo', JSON.stringify(todos));
+    /*this looks in the show() how to display a removed item on the screen*/
+    show();
+
+    return false;
+}
+
+
+/*this tells the browser how to display the todo array after an item has been removed*/
+var buttons = document.getElementsByClassName('remove');
+for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', remove);
+};
